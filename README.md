@@ -3,7 +3,7 @@
 **Covers:** POJO classes, ten dependent Subject objects, JAXB marshalling/unmarshalling, separate `XmlTransformer`, DTD and XSD validation, TCP server/client, JUnit tests.
 
 ## Run
-1. Open this folder (not the parent archive folder) in IntelliJ.
+1. Open in IntelliJ.
 2. Wait for Maven sync and dependency downloads.
 3. Run `com.webservices.Main`. Expected messages: `DTD validation successful`, `XSD validation and unmarshalling successful`, and `Subjects restored: 10`.
 4. Run `com.webservices.network.XmlServer`; leave it running.
